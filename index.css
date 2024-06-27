@@ -1,0 +1,84 @@
+/* bordas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*o corpo  */
+  body {
+    font-family: Arial, sans-serif;             
+    line-height: 1.6; 
+    background-color: #062863; 
+    color: #333333;
+  }
+
+     .container {
+    width: 80%; 
+    margin: 0 auto;
+    
+  }
+  
+  /* o cabeçalho */
+  header {
+    background-color: #fff; 
+    color: #000;               
+    padding: 15px;                   
+    text-align: center;
+  }
+  
+  /* titulo*/
+    header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* organiza lista no topo */
+    nav ul li {
+    display: inline-flex; /*inten na  linha */
+    margin: 15px; /*  margem */
+  }
+  /* links dentro dos itens de lista na navegação */
+  nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+  }
+  
+  /*separa conterner*/
+    .hero h2 {
+    font-size: 3em; /* tamanho da fonte */
+  }
+  
+     /*ceções do site */
+    section {
+    background-color: #1f0404; 
+    padding: 20px; 
+    margin: 20px  ; 
+    border-radius: 8px; /* canto  */
+    box-shadow: 10px; /* sombra */
+  }
+  
+  
+  /* imagens  */
+    section img {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+  
+  /*  rodapé */
+    footer {
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 20px; 
+    background-color: #333; 
+    color: #fff;
+    border-radius: 8px; 
+  }
+  /*sepacamento secao bem vindo */
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px ; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(6, 42, 90, 0.1);
+  }
